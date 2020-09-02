@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MondayDetailActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/monday_detail"
+        android:layout_width="411dp"
+        android:layout_height="109dp"
+        android:gravity="center"
+        android:text="@string/monday_detail_activity"
+        android:textAllCaps="true"
+        android:textColor="#E30B0B"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="sans-serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+            <TextView
+                android:id="@+id/push"
+                android:layout_width="155dp"
+                android:layout_height="51dp"
+                android:gravity="center"
+                android:text="push"
+                android:textAllCaps="true"
+                android:textColor="#E30B0B"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:fontFamily="sans-serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201" />
+
+
+            <ImageView
+                android:id="@+id/push_up_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/push_up" />
+
+            <TextView
+                android:id="@+id/push_text"
+                android:layout_width="388dp"
+                android:layout_height="500dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/background_light"
+                android:fadeScrollbars="true"
+                android:isScrollContainer="false"
+                android:scrollbars="vertical|none"
+
+                android:text="
+                1.Assume a face-down prone position on the floor.Keep your feet together.Your weight should be on your chest.
+                                                                      • Position hands palms-down on the floor, approximately shoulder-width apart.They should be about next to your shoulders, with your elbows pointed towards your toes.
+
+                                                                                       • if you are on a relatively cushioned surface, such as a carpeted floor,you may also support yourself on your fists between the first and second knuckles for a greater challenge. If you are on a less forgiving surface, consider investing in some push-up grips,(they look like handles you put on the floor).
+
+                                   • Curl your toes upward (towards your head). The balls of your feet should touch the ground.
+
+
+
+
+                2. Raise yourself using your arms. At this point, your weight should be supported by your hands and the balls of your feet. Make a straight line from your head to your heels, and contract your abdominals to keep your hips from sagging. This position is called a plank, which is used for various exercises.[1] This is the beginning and the end position of a single push up.
+
+
+
+
+
+"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:visibility="visible"
+                app:layout_constraintTop_toBottomOf="@+id/monday_detail"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="36dp" />
+
+            <TextView
+                android:id="@+id/supporting_push_up"
+                android:layout_width="387dp"
+                android:layout_height="51dp"
+                android:gravity="center"
+                android:text="Supporting Push Up"
+                android:textAllCaps="true"
+                android:textColor="#E30B0B"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:fontFamily="sans-serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201" />
+            <ImageView
+                android:id="@+id/supporting_push_up_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/supportingpushup" />
+
+            <TextView
+                android:id="@+id/supporting_push_up_text"
+                android:layout_width="388dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/background_light"
+                android:fadeScrollbars="true"
+                android:isScrollContainer="false"
+                android:scrollbars="vertical|none"
+
+                android:text="
+                                 1.Stand with feet under hips, arm’s length away from a wall.
+                                                                                            2. Plant both palms on the wall, with wrists in line with your shoulders and fingers pointed at the ceiling.
+                                                                                              3.Screw pinkies into the wall to activate lats and brace core (by preparing for a gut punch). Then, pull up on quad muscles and clench butt cheeks like you’re holding in a fart.
+                                                                   4.Maintaining this tight AF position, inhale and bend elbows straight back until your forehead or nose nearly boinks the wall.
+                                                                   5.Exhale as you press the wall away and return to the starting position. That’s 1 rep.
+
+
+
+
+
+"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:visibility="visible"
+                app:layout_constraintTop_toBottomOf="@+id/monday_detail"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="36dp" />
+
+            <TextView
+                android:id="@+id/squats"
+                android:layout_width="387dp"
+                android:layout_height="51dp"
+                android:gravity="center"
+                android:text="Squats:"
+                android:textAllCaps="true"
+                android:textColor="#E30B0B"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:fontFamily="sans-serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201" />
+
+            <ImageView
+                android:id="@+id/squats_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/squats" />
+            <TextView
+                android:id="@+id/squats_text"
+                android:layout_width="388dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/background_light"
+                android:fadeScrollbars="true"
+                android:isScrollContainer="false"
+                android:scrollbars="vertical|none"
+
+                android:text="
+                                1. Maintaining a wide stance, place your feet squarely under the bar and lift it from the rack using the legs.3 Keep the weight centered; do not lift from your heels or toes.
+2. Slowly bend your knees while keeping your torso erect. Do not lean forward. Keep your hips under the bar at all times. At the bottom of your movement, the angles of your knee joint and hip joint are nearly equal.3 Never relax or drop to the bottom position. Maintain constant, slow, and controlled muscle tension. Inhale as you lower.
+3. Slowly return to starting position while keeping your torso and back erect and hips under the bar.3 Exhale as you push through your heels and stand tall.
+4. Repeat as many times as desired for a set. Try one to three sets of six to 10 squats to start.
+
+
+
+"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:visibility="visible"
+                app:layout_constraintTop_toBottomOf="@+id/monday_detail"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="36dp" />
+
+
+            <TextView
+                android:id="@+id/arms_circles"
+                android:layout_width="387dp"
+                android:layout_height="51dp"
+                android:gravity="center"
+                android:text="Arms circles:"
+                android:textAllCaps="true"
+                android:textColor="#E30B0B"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:fontFamily="sans-serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201" />
+
+            <ImageView
+                android:id="@+id/arms_circles_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/armscircle" />
+            <TextView
+                android:id="@+id/arms_circles_text"
+                android:layout_width="388dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/background_light"
+                android:fadeScrollbars="true"
+                android:isScrollContainer="false"
+                android:scrollbars="vertical|none"
+
+                android:text="
+1. Stand with your feet shoulder-width apart and extend your arms parallel to the floor.
+2. Circle your arms forward using small controlled motions, gradually making the circles bigger until you feel a stretch in your triceps.
+3. Reverse the direction of the circles after about 10 seconds.
+
+
+
+
+"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:visibility="visible"
+                app:layout_constraintTop_toBottomOf="@+id/monday_detail"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="36dp" />
+
+            <TextView
+                android:id="@+id/crunches"
+                android:layout_width="387dp"
+                android:layout_height="51dp"
+                android:gravity="center"
+                android:text="crunches:"
+                android:textAllCaps="true"
+                android:textColor="#E30B0B"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:fontFamily="sans-serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201" />
+
+            <ImageView
+                android:id="@+id/crunches_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/crunches" />
+            <TextView
+                android:id="@+id/crunches_text"
+                android:layout_width="388dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/background_light"
+                android:fadeScrollbars="true"
+                android:isScrollContainer="false"
+                android:scrollbars="vertical|none"
+
+                android:text="
+1. Lie down on your back. Plant your feet on the floor, hip-width apart. Bend your knees and place your arms across your chest. Contract your abs and inhale.
+2. Exhale and lift your upper body, keeping your head and neck relaxed.
+3. Inhale and return to the starting position.
+
+"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:visibility="visible"
+                app:layout_constraintTop_toBottomOf="@+id/monday_detail"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="36dp" />
+
+            <TextView
+                android:id="@+id/bicycles"
+                android:layout_width="387dp"
+                android:layout_height="51dp"
+                android:gravity="center"
+                android:text="Bicycles:"
+                android:textAllCaps="true"
+                android:textColor="#E30B0B"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:fontFamily="sans-serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201" />
+
+            <ImageView
+                android:id="@+id/bicycles_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bycycles" />
+            <TextView
+                android:id="@+id/bicyles_text"
+                android:layout_width="388dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/background_light"
+                android:fadeScrollbars="true"
+                android:isScrollContainer="false"
+                android:scrollbars="vertical|none"
+
+                android:text="
+1. Lie on your back, lift your shoulders off the mat and raise both legs.
+2. Bring one knee and the opposing elbow close to each other by crunching to one side, and fully extend the other leg.
+3. Return to the starting position and then crunch to the opposite side.
+4. Repeat until the set is complete.
+
+"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:visibility="visible"
+                app:layout_constraintTop_toBottomOf="@+id/monday_detail"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="36dp" />
+
+            <TextView
+                android:id="@+id/lunges"
+                android:layout_width="387dp"
+                android:layout_height="51dp"
+                android:gravity="center"
+                android:text="Lunges:"
+                android:textAllCaps="true"
+                android:textColor="#E30B0B"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:fontFamily="sans-serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201" />
+
+            <ImageView
+                android:id="@+id/lunges_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/lunges" />
+            <TextView
+                android:id="@+id/lunges_text"
+                android:layout_width="388dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/background_light"
+                android:fadeScrollbars="true"
+                android:isScrollContainer="false"
+                android:scrollbars="vertical|none"
+
+                android:text="
+                                1. Maintaining a wide stance, place your feet squarely under the bar and lift it from the rack using the legs.3 Keep the weight centered; do not lift from your heels or toes.
+2. Slowly bend your knees whileStand with your feet hip-width apart, keep your back straight, your shoulders back and your abs tight.
+Take a step forward and slowly bend both knees, until your back knee is just above the floor.
+3. Stand back up and repeat the movement.
+4. Alternate legs until set is complete.
+
+
+
+
+"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:visibility="visible"
+                app:layout_constraintTop_toBottomOf="@+id/monday_detail"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="36dp" />
+
+            <TextView
+                android:id="@+id/high_knees"
+                android:layout_width="387dp"
+                android:layout_height="51dp"
+                android:gravity="center"
+                android:text="High knees:"
+                android:textAllCaps="true"
+                android:textColor="#E30B0B"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:fontFamily="sans-serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201" />
+
+            <ImageView
+                android:id="@+id/high_knees_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/highknees" />
+            <TextView
+                android:id="@+id/high_kness_text"
+                android:layout_width="388dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/background_light"
+                android:fadeScrollbars="true"
+                android:isScrollContainer="false"
+                android:scrollbars="vertical|none"
+
+                android:text="
+                                1. Stand with your feet hip-width apart. Lift up your left knee to your chest.
+2. Switch to lift your right knee to your chest. Continue the movement, alternating legs and moving at a sprinting or running pace
+
+
+
+"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:visibility="visible"
+                app:layout_constraintTop_toBottomOf="@+id/monday_detail"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="36dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

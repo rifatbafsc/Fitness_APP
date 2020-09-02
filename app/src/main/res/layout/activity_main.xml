@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="155dp"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="WARNINGS"
+        android:textAllCaps="true"
+        android:textColor="#E30B0B"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="sans-serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/warning_text"
+        android:layout_width="379dp"
+        android:layout_height="472dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:text="
+       • If you have any injury or health issue please contact your doctor before starting with this plan.
+                                                                                           • Don’t rush during workout time. At beginner level, ist’s ok to take much time than the given one.
+                                                                                           • It’s ok to skip during workout time for any emergency.
+                                                                                           • In the first few weeks body pain is normal. You can check body releasing stretching, which is also provided.But if you some serious pain or injury then contact a doctor as early as possible.
+                                                                                           • Don’t try exercises in front of children.
+                                                                                           • For better results, you need to be regular with this plan along with food habits.
+"
+        android:textAllCaps="true"
+        android:textColor="#E30B0B"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="sans-serif"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/startYoga"
+        android:layout_width="415dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginRight="164dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="442dp"
+        android:text="Let's start"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
